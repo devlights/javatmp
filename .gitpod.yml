@@ -1,0 +1,15 @@
+image: gitpod/workspace-full:latest
+
+tasks:
+  - name: install go-task
+    init: go install github.com/go-task/task/v3/cmd/task@latest
+
+vscode:
+  extensions:
+    - redhat.java
+    - vscjava.vscode-java-dependency
+    - vscjava.vscode-java-pack
+    - vscjava.vscode-java-debug
+    - vscjava.vscode-java-test
+    - vscjava.vscode-maven
+    - golang.go
