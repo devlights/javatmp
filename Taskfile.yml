@@ -1,0 +1,16 @@
+version: "3"
+
+tasks:
+  init:
+    cmds:
+      - gp open App.java
+  run:
+    cmds:
+      - javac App.java
+      - java App
+  version:
+    cmds:
+      - java -version
+  clean:
+    cmds:
+      - rm *.java *.class
