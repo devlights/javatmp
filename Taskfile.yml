@@ -3,6 +3,7 @@ version: "3"
 tasks:
   init:
     cmds:
+      - touch App.java
       - gp open App.java
   run:
     cmds:
