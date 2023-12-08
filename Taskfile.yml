@@ -13,4 +13,4 @@ tasks:
       - java -version
   clean:
     cmds:
-      - rm *.java *.class
+      - rm -f *.java *.class
