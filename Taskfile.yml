@@ -4,7 +4,6 @@ tasks:
   init:
     cmds:
       - touch App.java
-      - gp open App.java
   run:
     cmds:
       - javac App.java
